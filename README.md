@@ -1,2 +1,2 @@
 # micronaut-auth
-API Rest with Micronaut + JWT authentication + JPA Persistence
+API Rest with Micronaut and Kotlin + JWT authentication + JPA Persistence
