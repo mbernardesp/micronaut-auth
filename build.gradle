@@ -38,6 +38,9 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic")
     runtimeOnly("com.h2database:h2")
     implementation("io.micronaut:micronaut-validation")
+    implementation("org.springframework.security:spring-security-crypto:5.4.2")
+    compile 'commons-logging:commons-logging:1.2'
+
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
