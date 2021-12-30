@@ -16,7 +16,7 @@ class StartupService(private val userRepository: UserRepository) {
     @EventListener
     fun onStartupEvent(event: StartupEvent) {
 
-        val user = userRepository.save(
+        val user = userRepository.saveEncoded(
             User(
                 12345678910,
                 "master"
